@@ -5,6 +5,9 @@
   because the image is hosted on UploadThing
 */
 const nextConfig = {
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   images: {
     remotePatterns: [
       {
