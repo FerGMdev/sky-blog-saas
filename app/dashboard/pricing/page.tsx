@@ -62,13 +62,7 @@ export default async function PricingPage() {
 
   return (
     <div>
-      <PricingTable
-        id={1}
-        cardTitle="Basic"
-        cardDescription="For small businesses"
-        priceTitle="Free"
-        benefits={[]}
-      />
+      <PricingTable />
     </div>
   );
 }
